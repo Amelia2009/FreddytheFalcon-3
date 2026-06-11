@@ -18,7 +18,7 @@ public class Shooter {
         leftSpin = hwMap.get(DcMotorEx.class, "leftSpin");
         leftSpin.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         leftSpin.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);
-        leftSpin.setDirection(DcMotorSimple.Direction.FORWARD);
+        leftSpin.setDirection(DcMotorSimple.Direction.REVERSE);
         leftSpin.setPower(0);
 
     }
